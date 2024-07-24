@@ -1,3 +1,5 @@
+DOI: 10.5281/zenodo.12803445
+
 This is part of the Archaeo-riddle project (https://theia.arch.cam.ac.uk/archaeoriddle/) answering "RQ1: What was the relationship between the two groups? Was it peaceful or hostile?".
 
 Title: Using Point Process Modelling to detect cooperation vs competition
