@@ -9,6 +9,23 @@ library(raster)
 library(maptools)
 library(sf)
 library(here)
+
+# package versions
+packageVersion("readr")
+#[1] '2.1.5'
+packageVersion("spatstat")
+#[1] '3.0.2' 
+packageVersion("spatstat.model")
+#[1] '3.2.1.7'
+packageVersion("raster")
+#[1] '3.6.3'
+packageVersion("maptools")
+#[1] '1.1.5'
+packageVersion("sf")
+#[1] '1.0.9'
+packageVersion("here")
+#[1] '1.0.1'
+
 #1.select aother 5 squares
 #1.1 prepare the spatstat objects
 #read the csv of sites
