@@ -1,6 +1,12 @@
 
 # Title: Using Point Process Modelling to detect the peaceful vs hostile relationship
 # Author: Xuan Zhang, PhD student in School of Architecture, Tianjin University, China; visiting PhD student in Department of Archaeology, University of Cambridge, UK (2022-2023)
+
+# Note:
+# The file paths have been standardized using the here package, so users do not need to adjust the paths.
+# A file named all_sites_for_R.csv is provided, which includes all data obtained after selecting five additional grids and processing the radiocarbon dates via Oxcal Online. Users may choose to skip these steps.
+# The maptools pacakge has retired and removed from the CRAN repository, so please visit 'https://cran.r-project.org/src/contrib/Archive/maptools/' to obtain former available versions and install the package. The users can also use other packages as suggested on 'https://cran.r-project.org/web/packages/maptools/index.html' as a substitution. However, switching to other packages might have an impact on the results.
+
 # prepare the packages
 library(readr)
 library(spatstat)
@@ -775,8 +781,6 @@ as.ppm(late.pm.AI)
 # For standard errors, type coef(summary(x))
 
 #the end
-save.image("FHG.RData")
-savehistory("FHG.Rhistory")
 
 
 
