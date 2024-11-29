@@ -89,21 +89,21 @@ This proposal was part of the Archaeo-riddle project and used Point Process Mode
 
 Each participants of the Archaeo-riddle project (https://theia.arch.cam.ac.uk/archaeoriddle/) was given “one map with height values and another one with values with probabilities of settlement according to environmental fitness”, information of some known sites including site names, coordinates, radiocarbon dates and cultural affiliations. Participants were also asked to select 5 more grids to get more sites.
 
-1)Selecting 5 more grids
+1) Selecting 5 more grids
 
 To select 5 more grids, I built first-order point process models (Bevan, 2020) with the given environmental maps for farmer sites, hunter-gatherer sites and all sites and got predictive maps. One grid was selected for farmer sites, one for hunter-gatherer sites and three for all sites. 
 
-2)Defining the time unit
+2) Defining the time unit
 
 After processing the radiocarbon dates of each sites via OxCal Online, the chronology of the sites was divided into the following stages: 1) the early period (before 6000 BC, 48 sites); 2) the middle-early period (from 6000 BC to 5500 BC, 77 sites) and the middle-late period (from 5500 BC to 5000 BC, 47 sites); 3) the late period (after 5000 BC, 7 sites). 
 
 2.Methods
 
-1)Defining the proxy for relationship
+1) Defining the proxy for relationship
 
 The distance between the two groups was used as a proxy for their relationships. According to evolutionary ecology studies (Field 2003), the distance between farms and hunter-gatherers could be a proxy for their relationship. During each period, if farmer sites and hunter-gatherer sites were crowded with each other, they were likely to be hostile to each other. If they kept reasonable distances from each other, they might have had a peaceful relationship. 
 
-2)Fitting the models
+2) Fitting the models
 
 For each period, I applied Cross-type K-Function to test whether the two groups were clustered or not (Baddeley, Rubak, & Turner, 2015). If they were clustered with each other, I generated a Multitype Strauss Model combined with Maximum Pseudolikelihood to get the optimum value of irregular parameter R, or rather the interaction distance between the two groups of sites (Baddeley, Rubak, & Turner, 2015). If they were not clustered with each other, I generated an Area-interaction Model to distinguish a regular process from a Poisson process (Baddeley, Rubak, & Turner, 2015). 
 
@@ -113,20 +113,12 @@ Seen from the results (see the Output file) of the Cross-type K-Function, the tw
 
 4.Conclusions 
 
-1)The answer to RQ1
+1) The answer to RQ1
 
 Overall, the farmers and the hunter-gatherers might have had some conflicts during the middle period and the farmers were the winners. 
 
-2)PPM’s performance
+2) PPM’s performance
 
 As for PPM’s performance in answering the question, it had advantages in dealing with different-order interactions and analyzing multitype second-order interactions. However, the method was limited by the existing points when sampling. It also suffered from the bias caused by time averaging.
 
-4.Conclusions 
 
-1)The answer to RQ1
-
-Overall, the farmers and the hunter-gatherers might have had some conflicts during the middle period and the farmers were the winners. 
-
-2)PPM’s performance
-
-As for PPM’s performance in answering the question, it had advantages in dealing with different-order interactions and analyzing multitype second-order interactions. However, the method was limited by the existing points when sampling. It also suffered from the bias caused by time averaging.
