@@ -27,7 +27,7 @@ The work was one of the proposals at the Archaeoriddle Workshop, EAA, 2023.
 
 ```
 Xuan-Zhang-arc-Archaeoriddle_PPM_HG_F_relationship
-├── here
+├── .here
 ├── Layers/
 │   ├── east_narnia4x.tif
 │   ├── east_narnia4x.tif.aux.xml
@@ -53,15 +53,15 @@ Xuan-Zhang-arc-Archaeoriddle_PPM_HG_F_relationship
 │   └── Xuan_Zhang_EAA_presentation_slides.pdf
 ├── README.md
 └── Sites/
-├── Biblio_data.csv
-├── all_sites_for_R.csv
+│   ├── Biblio_data.csv
+│   └── all_sites_for_R.csv
 └── XZ-FHG.R
  ```
 
 
 # Part 3: How to use the files/folders
 
-If users wish to run this proposal on their own devices, they must download all files except for the `README.md` and the `Presentation_and_proposal` folder.  
+If users wish to run this proposal on their own devices, they should download all files except for the `README.md` and the `Presentation_and_proposal` folder.  
 
 **Step 1**: Open `XZ-FHG.R` in Neovim or RStudio.  
 
