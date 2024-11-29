@@ -17,7 +17,7 @@ The work was one of the proposals at the Archaeoriddle Workshop, EAA, 2023.
 
 2.`Layers`: the maps provided by the organizers;
 
-3.`Sites`: the sites provided by the organizers and the sites gain from the extra 5 grids;
+3.`Sites`: the sites provided by the organizers and all the sites including those gain from the extra 5 grids;
 
 4.`Output`: the output figures;
 
