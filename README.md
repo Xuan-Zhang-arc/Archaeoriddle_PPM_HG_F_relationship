@@ -98,7 +98,8 @@ Each participants of the Archaeo-riddle project (https://theia.arch.cam.ac.uk/ar
 
 **1) Selecting 5 more grids**
 
-To select 5 more grids, I built first-order point process models (Bevan, 2020) with the given environmental maps for farmer sites, hunter-gatherer sites and all sites and got predictive maps. One grid was selected for farmer sites, one for hunter-gatherer sites and three for all sites. 
+To select 5 more grids, I built first-order point process models (Bevan, 2020) with the given environmental maps for farmer sites, hunter-gatherer sites and all sites and got predictive maps. One grid was selected for farmer sites, one for hunter-gatherer sites and three for all sites. The 5 extra grids are Square 25, Square 29, Square 48, Square 58 and Square 96.
+
 
 **2) Defining the time unit**
 
@@ -126,6 +127,6 @@ Overall, the farmers and the hunter-gatherers might have had some conflicts duri
 
 **2) PPM’s performance**
 
-As for PPM’s performance in answering the question, it had advantages in dealing with different-order interactions and analyzing multitype second-order interactions. However, the method was limited by the existing points when sampling. It also suffered from the bias caused by time averaging.
+As for PPM’s performance in answering the question, it had advantages in dealing with different-order interactions and analyzing multitype second-order interactions. However, the method was limited by the existing points when sampling (selecting 5 more grids based on the predictive maps). It also suffered from the bias caused by time averaging.
 
 
