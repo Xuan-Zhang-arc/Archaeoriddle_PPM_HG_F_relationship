@@ -70,7 +70,7 @@ If users wish to run this proposal on their own devices, they should download al
 (Note: 
 1) The file paths have been standardized using the `here` package, so users do not need to adjust the paths.
 2) A file named `all_sites_for_R.csv` is provided, which includes all data obtained after selecting five additional grids and processing the radiocarbon dates via Oxcal Online. Users may choose to skip these steps.
-3) The maptools pacakge has retired and removed from the CRAN repository, so please visit 'https://cran.r-project.org/src/contrib/Archive/maptools/' to obtain former available versions and install the package. The users can also use other packages as suggested on 'https://cran.r-project.org/web/packages/maptools/index.html' as a substitution. However, switching to other packages might have an impact on the results.) 
+3) The maptools pacakge has retired and removed from the CRAN repository, so please visit `https://cran.r-project.org/src/contrib/Archive/maptools/` to obtain former available versions and install the package. The users can also use other packages as suggested on `https://cran.r-project.org/web/packages/maptools/index.html` as a substitution. However, switching to other packages might have an impact on the results.) 
 
 **Step 3**: View the results in the `Output` folder.
 
